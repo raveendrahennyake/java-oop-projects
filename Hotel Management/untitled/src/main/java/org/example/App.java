@@ -10,6 +10,7 @@ public class App {
     private static Connection connection;
     private static Statement statement;
     private static ResultSet resultSet;
+    
 
     private static String url="jdbc:mysql://localhost:3306/hotel_db";
     private static String user="root";
@@ -50,8 +51,7 @@ public class App {
 
                 switch (choice){
                     case 1:
-
-
+                        RoomController.addroom( connection,scanner );
                 }
 
 
