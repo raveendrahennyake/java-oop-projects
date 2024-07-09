@@ -14,7 +14,7 @@ public class App {
 
     private static String url="jdbc:mysql://localhost:3306/hotel_db";
     private static String user="root";
-    private static String password="raveenra@2022SQL";
+    private static String password="";
 
     public static void main(String[] args) {
         try {
